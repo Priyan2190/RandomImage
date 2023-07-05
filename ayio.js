@@ -13,7 +13,7 @@ const btn = document.getElementById("random-button");
 
 
 const run = () => {
-  fetch("https://random.imagecdn.app/500/150")
+  fetch("https://picsum.photos/500/300")
     .then((response) => response.blob())
     .then((blob) => {
       const imageURL = URL.createObjectURL(blob);
